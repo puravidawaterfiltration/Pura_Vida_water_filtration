@@ -1,12 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+import './globals.css'
 
-html { scroll-behavior: smooth; }
-body {
-  margin: 0;
-  background: #ffffff;
-  color: #0b1736;
-  font-family: Arial, Helvetica, sans-serif;
+export const metadata = {
+  title: 'Pura Vida Water Filtration | Custom Water Treatment in South Florida',
+  description: 'Premium whole home filtration, water softening, reverse osmosis, well water, municipal water, commercial and residential water treatment in Palm Beach County, Martin County, and Okeechobee County.',
 }
-details summary::-webkit-details-marker { display: none; }
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
+}
