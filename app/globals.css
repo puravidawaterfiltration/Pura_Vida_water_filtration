@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #071427;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+::selection {
+  background: #FF3F8E;
+  color: white;
+}
