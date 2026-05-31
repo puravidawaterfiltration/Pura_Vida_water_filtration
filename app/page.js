@@ -103,8 +103,9 @@ function Brand() {
         <PalmIcon />
       </div>
       <div className="leading-none">
-        <div className="text-[1.28rem] md:text-[1.7rem] font-black tracking-[0.12em] text-white">
-          PURA <span className="text-[#FF3F8E]">VIDA</span>
+        <div className="text-[1.28rem] md:text-[1.7rem] font-black tracking-[0.12em]">
+          <span className="text-[#12B5E5]">PURA</span>{" "}
+          <span className="text-[#FF3F8E]">VIDA</span>
         </div>
         <div className="mt-1 flex items-center gap-2">
           <span className="h-[2px] w-8 bg-[#FF3F8E]" />
